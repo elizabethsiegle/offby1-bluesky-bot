@@ -2,7 +2,7 @@
 This is a [Cloudflare Workers](https://workers.cloudflare.com/) application that makes use of [Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/) to automate posting once a day to [Blue Sky](https://bsky.app/).
 
 ## Setup
-Copy [.dev.vars.example][./.dev.vars.example] to `.dev.vars` and add your `BLUESKY_USERNAME` and `BLUESKY_PASSWORD`.
+Copy [.dev.vars.example](./.dev.vars.example) to `.dev.vars` and add your `BLUESKY_USERNAME` and `BLUESKY_PASSWORD`.
 
 ```bash
 npm install
