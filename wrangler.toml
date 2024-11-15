@@ -4,14 +4,10 @@ main = "src/index.ts"
 compatibility_date = "2024-11-12"
 compatibility_flags = ["nodejs_compat"]
 
-[ai]
-binding = "AI"
-
 [observability]
 enabled = true
 
 [triggers]
 # Schedule cron triggers:
 # - At 4:19PM daily utc: minute 19, hour 0(midnight utc), 0 any day of the month, 0 any month, 0 any day of the week
-crons = [ "19 0 * * *" ]
-# crons = [ "19 23 * * *" ] daylight savings
+crons = [ "19 12 * * *" ]
