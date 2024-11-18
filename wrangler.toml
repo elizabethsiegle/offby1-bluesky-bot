@@ -10,4 +10,4 @@ enabled = true
 [triggers]
 # Schedule cron triggers:
 # - At 4:19PM daily utc: minute 19, hour 0(midnight utc), 0 any day of the month, 0 any month, 0 any day of the week
-crons = [ "19 12 * * *" ]
+crons = [ "19 0 * * *" ]
