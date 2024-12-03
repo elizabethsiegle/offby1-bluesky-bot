@@ -1,7 +1,9 @@
-# Automate Posts to BlueSky with BlueSky API, Cloudflare Workers, Cron Triggers
-This is a [Cloudflare Workers](https://workers.cloudflare.com/) application that makes use of [Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/) to automate posting once a day to [Blue Sky](https://bsky.app/).
+# Automate Posts to BlueSky🦋 with BlueSky API, Cloudflare Workers, Cron Triggers
+[<img src="https://img.youtube.com/vi/489fB42i_zA/0.jpg">](https://youtu.be/489fB42i_zA "Automate Bluesky Posts using Cloudflare Workers, Cron Triggers, and the Bluesky API!")
 
-Check it out on [Blue Sky here](https://bsky.app/profile/offby1bot.bsky.social)!
+This [Cloudflare Workers](https://workers.cloudflare.com/) app 👩🏻‍💻 makes use of [Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/) to automate posting once a day to [Blue Sky](https://bsky.app/).
+
+Check✅ it out on [Blue Sky here](https://bsky.app/profile/offby1bot.bsky.social)!👀
 
 ## Setup
 Copy [.dev.vars.example](./.dev.vars.example) to `.dev.vars` and add your `BLUESKY_USERNAME` and `BLUESKY_PASSWORD`.
