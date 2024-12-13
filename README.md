@@ -6,12 +6,18 @@ This [Cloudflare Workers](https://workers.cloudflare.com/) app 👩🏻‍💻 m
 Check✅ it out on [Blue Sky here](https://bsky.app/profile/offby1bot.bsky.social)!👀
 
 ## Setup
-Copy [.dev.vars.example](./.dev.vars.example) to `.dev.vars` and add your `BLUESKY_USERNAME` and `BLUESKY_PASSWORD`.
+You need a Cloudflare account. Copy [.dev.vars.example](./.dev.vars.example) to `.dev.vars` and add your `BLUESKY_USERNAME` and `BLUESKY_PASSWORD`.
 
 ```bash
 npm install
 npx wrangler login # if it's your first time here
 ```
+If you want to start from scratch, run
+
+```
+npm create cloudflare@latest
+```
+and pick `Hello World Example` and `TypeScript`.
 
 In [wrangler.toml](./wrangler.toml), you can set the time to post in the `crons` array beneath the `triggers` configuration. Reminder--cron tabs are written in UTC. I used the [Cloudflare Workers AI LLM Playground](https://playground.ai.cloudflare.com/) to generate my cron tabs using this system message from my wonderful teammate [Craig Dennis](https://twitter.com/craigsdennis):
 
